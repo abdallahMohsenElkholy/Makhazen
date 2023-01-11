@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;0,600;0,700;1,600&family=Mouse+Memoirs&family=Nerko+One&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Square+Peg&display=swap');
+
+:root {
+    --headerColor: #6A6A6A;
+    --mainColor: #A71C45;
+    --lightColor: #E2E2E2;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(../assets/imges/header.svg);
+    min-height: 732.338px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.headers {
+    color: var(--headerColor);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 33px 0;
+}
+
+.navbar-brand,
+.nav-link,
+.about .content p {
+    font-size: 16px;
+}
+
+nav .container-fluid {
+    margin-top: 1.3rem;
+}
+
+nav .navbar-collapse a {
+    color: #fff !important;
+}
+
+.intro {
+    margin-top: 60px;
+}
+
+.intro .layer-one span,
+.contact ul p {
+    font-size: 20px;
+}
+
+.intro .layer-one .btn-one {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.intro .layer-one p,
+.about .content h3 {
+    font-size: 18px;
+}
+
+.intro .layer-one h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* about */
+.about {
+    color: #000;
+    padding-top: 2rem;
+}
+
+.inner-svg {
+    top: 20%;
+    left: 10%;
+}
+
+/* journey */
+.journey .content {
+    min-height: 566px;
+    background-image: url(../assets/imges/jBg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.journey .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.journey .svg svg{
+    width:284.825px ;
+    height: 261px ;
+
+}
+
+.journey ul li p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.journey ul li span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.journey ul li{
+    position: relative;
+    padding-left: 48.4px;
+    height: 86.1px;
+}
+.journey ul{
+    position: relative;
+}
+
+.journey ul::before {
+    content: url(../assets/imges/line.svg);
+    position: absolute;
+    top: 0;
+    left: 18px;
+}
+
+.journey ul li::before {
+    content: url(../assets/imges/outerCir.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.journey ul li::after {
+    content: url(../assets/imges/innerCir.svg);
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+/* services */
+.container-custom{
+    width: 97%;
+    margin: auto;
+}
+
+.oval img{
+    width: 85.448px;
+    height: 128.511px;
+}
+
+.text span ,
+.text h3{
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+.text span{
+    font-size: 30px;
+}
+
+.text h3{
+    font-size: 25px;
+}
+
+/* balls */
+.ball-one{
+    position: relative;
+    top:44px;
+    left: -94px;
+}
+
+.ball-two{
+    position: relative;
+    right: -94px;
+}
+
+/* partners */
+.partners .container .img img{
+    width: 115px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.partners{
+    min-height: 300px;
+    padding-top: 30px;
+}
+
+/* portfolio */
+.portfolio{
+    background-image: url(../assets/imges/portfolio/portfolioBg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 65px;
+    
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card-title{
+    color: var(--mainColor);
+    font-size: 14px;
+    margin: 0;
+}
+
+.btn-two{
+    color: var(--mainColor);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid var(--mainColor);
+}
+
+/* contact */
+.contact ul i {
+    color: var(--mainColor);
+}
+
+.map-svg{
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+footer .one{
+    background-color: var(--mainColor);
+}
+
+footer .two{
+    background-color: var(--headerColor);
+}
+
+footer .one p,
+footer .two p,
+footer .one h3 span span{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    
+}
+@media screen and (max-width: 991px) {
+    .intro{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .journey .container{
+        width: fit-content;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .journey ul li {
+        height: 100.1px;
+    }
+
+    .journey ul::before {
+        content: url(../assets/imges/line2.svg);
+    }
+
+    .map-svg img{
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .intro .layer-one {
+        width: 360px;
+        height: 506px;
+    }
+
+    .intro .layer-two svg {
+        width: 493.22px;
+        height: 511.598px;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro .layer-two svg {
+        width: 393.22px;
+        height: 401.598px;
+        align-self: center;
+    }
+
+    .inner-svg {
+        top: 14%;
+        left: 9%;
+    }
+
+    .oval img{
+        width: 285.448px;
+        height: 328.511px;
+    }
+    
+    .container-custom{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro .layer-two svg {
+        width: 393.22px;
+        height: 401.598px;
+        align-self: center;
+    }
+
+    .inner-svg {
+        top: 18%;
+        left: 6%;
+    }
+    
+    .partners .container .img img{
+        width: 85px;
+    }
+
+    .map-svg img{
+        height: 70%;
+    }
+}
+
+@media screen and (min-width:545px) {
+    .journey .svg svg{
+        width:454.825px ;
+        height: 431px ;
+    }
+
+    .journey ul{
+        width: 446.34px;
+        height: 500.5px;
+    }
+
+    .oval img{
+        width: 165.448px;
+        height: 208.511px;
+    }
+
+    .container-custom{
+        width: 77%;
+    }
+}
+@media screen and (max-width:545px) {
+    .partners .container .img img{
+        width: 50px;
+    }
+}
